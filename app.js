@@ -3,7 +3,7 @@ import * as utils from "./utils/utils.js";
 import { projectInfo } from "./build/1-project-bundle/projectMeta.js";
 
 const app = express();
-const port = 8001;
+const port = 8080;
 
 app.use(express.static("public"));
 
